@@ -1,5 +1,8 @@
 *.class
 bin/
 lib/
+.classpath
+.settings/
+.project
 
 
