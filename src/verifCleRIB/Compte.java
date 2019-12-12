@@ -1,9 +1,17 @@
 package verifCleRIB;
 
-public class Numero {
+public class Compte {
 	
+	
+	String numero;
 
-	private String numero ;
+	
+	
+	public Compte() {}
+
+	public Compte(String numero) {
+		this.numero = numero;
+	}
 
 	public String getNumero() {
 		return numero;
@@ -15,7 +23,6 @@ public class Numero {
 
 	@Override
 	public String toString() {
-		return "Numero [numero=" + numero + "]";
+		return "Compte [numero=" + numero + "]";
 	}
-	
 }
